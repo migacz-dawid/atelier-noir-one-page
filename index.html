@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Atelier Noir</title>
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  
+  <link rel="icon" href="./img/favicon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+  <nav id="nav" class="nav">
+    <div class="nav-container">
+      <a href="#" id="brand">
+        <div class="nav-brand">
+          <div class="nav-brand-icon">
+            <svg width="24" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24">
+              <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle r="3" cx="6" cy="6"></circle>
+                <path d="M8.12 8.12L12 12m8-8L8.12 15.88"></path>
+                <circle r="3" cx="6" cy="18"></circle>
+                <path d="M14.8 14.8L20 20"></path>
+              </g>
+            </svg>
+          </div>
+          <span class="nav-brand-text">ATELIER NOIR</span>
+        </div>
+      </a>
+      <button id="nav-toggle" aria-label="Przycisk otwierający menu mobilne" class="nav-toggle">
+        <span id="menu-icon" class="nav-toggle-icon1 nav-toggle-icon-menu">
+          <svg width="24" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24">
+            <path d="M4 5h16M4 12h16M4 19h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round"></path>
+          </svg>
+        </span>
+        <span id="close-icon" class="nav-toggle-icon2 nav-toggle-icon-close">
+          <svg width="24" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24">
+            <path d="M18 6L6 18M6 6l12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round"></path>
+          </svg>
+        </span>
+      </button>
+      <ul id="nav-links" class="nav-links">
+        <li class="nav-item">
+          <a href="#header">
+            <p class="nav-link">
+              <span class="nav-link-text">Home</span>
+              <span class="nav-link-underline"></span>
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#services">
+            <p class="nav-link">
+              <span class="nav-link-text">USŁUGI</span>
+              <span class="nav-link-underline"></span>
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#showcase">
+            <p class="nav-link">
+              <span class="nav-link-text">Portfolio</span>
+              <span class="nav-link-underline"></span>
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#team">
+            <p class="nav-link">
+              <span class="nav-link-text">O NAS</span>
+              <span class="nav-link-underline"></span>
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#booking">
+            <p class="nav-link">
+              <span class="nav-link-text">KONTAKT</span>
+              <span class="nav-link-underline"></span>
+            </p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <header id="header" aria-labelledby="header-title" class="js-anim-section header-section" data-animation="slide-up">
+    <div class="header-grid">
+      <div class="header-media">
+        <div class="header-media-container">
+          <video src="./img/header-video.mp4" loop="true"
+            muted="true" autoplay="true" aria-label="Atelier Noir ambience" playsinline="true"
+            class="header-media-video"></video>
+          <div class="header-media-overlay"></div>
+        </div>
+      </div>
+      <div class="header-content">
+        <h1 id="header-title" class="header-title">Atelier Noir</h1>
+        <p class="header-subtitle">Sztuka stylizacji włosów</p>
+        <p class="header-description">
+          <span>
+            Wyrafinowane, inspirowane światem mody fryzury tworzone dla
+            wymagających klientów. Łączymy techniki haute couture z okiem
+            projektanta, aby tworzyć świetliste, autorskie stylizacje,
+            które pięknie prezentują się na zdjęciach i są trwałe.
+          </span>
+        </p>
+        <ul class="header-features">
+          <li>
+            <svg width="20" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24">
+              <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594zM20 2v4m2-2h-4">
+                </path>
+                <circle r="2" cx="4" cy="20"></circle>
+              </g>
+            </svg>
+            <span>Stylizacje o jakości portfolio</span>
+          </li>
+          <li>
+            <svg width="20" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24">
+              <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M12 22a1 1 0 0 1 0-20a10 9 0 0 1 10 9a5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z">
+                </path>
+                <circle r=".5" cx="13.5" cy="6.5" fill="currentColor"></circle>
+                <circle r=".5" cx="17.5" cy="10.5" fill="currentColor"></circle>
+                <circle r=".5" cx="6.5" cy="12.5" fill="currentColor"></circle>
+                <circle r=".5" cx="8.5" cy="7.5" fill="currentColor"></circle>
+              </g>
+            </svg>
+            <span>Koloryzacja couture</span>
+          </li>
+          <li>
+            <svg width="20" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24">
+              <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="m15.477 12.89l1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
+                </path>
+                <circle r="6" cx="12" cy="8"></circle>
+              </g>
+            </svg>
+            <span>Stylizacje ślubne i editorialowe</span>
+          </li>
+        </ul>
+        <a href="#booking" class="btn-primary btn">Zamów prywatną
+          konsultację</a>
+      </div>
+      <div class="header-right">
+        <div class="header-portfolio">
+          <img src="./img/header1.jpg"
+            alt="Przykład stylizacji krótkie włosy w kolorze rudym" />
+          <img src="./img/header2.jpg"
+            alt="Przykład stylizacji długie kolorowe włosy" />
+          <img src="./img/header3.jpg"
+            alt="Przykład stylizacji kobieta zawirowana fryzura" />
+        </div>
+        <div class="header-booking-card">
+          <h3>Zapytaj nas</h3>
+          <form id="header-form" class="header-booking-form">
+            <label for="header-email">Adres e-mail</label>
+            <input type="email" id="header-email" name="true" required placeholder="Twój e-mail" />
+            <label for="header-service">Czym jesteś zainteresowany</label>
+            <select id="header-service" name="service" required>
+              <option value="" disabled selected>Wybierz uslugę</option>
+              <option value="cut">Precision Cut</option>
+              <option value="color">Color Artistry</option>
+              <option value="bridal">Bridal Styling</option>
+              <option value="consultation">Consultation</option>
+            </select>
+            <button type="submit" class="btn-primary btn">
+              Wyslij
+            </button>
+          </form>
+        </div>
+        <p class="alert-message alert-message--header ">Dziękujemy za wiaomość! Odezwiemy się w przeciągu 1 dnia roboczego!</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="showcase" aria-labelledby="showcase-title" class="js-anim-section showcase-section" data-animation="fade-in">
+      <div class="showcase-container">
+        <div class="showcase-header">
+          <h2 id="showcase-title" class="section-title">Kolekcja Atelier Noire</h2>
+          <p class="section-subtitle">Starannie wyselekcjonowane dzieła</p>
+        </div>
+        <div role="toolbar" aria-label="Przyciski filtrowania galerii" class="showcase-toolbar">
+          <button aria-pressed="true" class="showcase-filter-btn active" data-filter="all">
+            Wszystkie
+          </button>
+          <button aria-pressed="false" class="showcase-filter-btn" data-filter="editorial">Edytorial</button>
+          <button aria-pressed="false" class="showcase-filter-btn" data-filter="bridal">Ślubne</button>
+          <button aria-pressed="false" class="showcase-filter-btn" data-filter="color">
+            Koloryzacja
+          </button>
+          <button aria-pressed="false" class="showcase-filter-btn" data-filter="texture">Tekstura</button>
+
+        </div>
+        <div class="showcase-canvas">
+          <article data-category="editorial color" class="showcase-featured-case">
+            <img alt="Stylizacja The Velvet Edit" src="./img/portfolio1.jpg" />
+            <div class="showcase-featured-content">
+              <h3>The Velvet Edit</h3>
+              <p>
+                <span>
+                  Miękkie, wielowymiarowe brązy z satynowym wykończeniem —
+                  kolor budowany warstwowo dla głębi, która na zdjęciach
+                  wygląda jak jedwab.
+                </span>
+              </p>
+            </div>
+          </article>
+          <div class="showcase-feature-studies">
+            <article data-category="editorial texture" class="showcase-study-card">
+              <img alt="Stylizacja architektoniczny blond" src="./img/portfolio2.jpg" />
+              <div class="showcase-study-content">
+                <h4>Architektoniczny blond</h4>
+                <p>
+                  <span>
+                    Rzeźbione kształty i chłodny blask stworzone z precyzją,
+                    by zachować formę w świetle reflektorów.
+                  </span>
+                </p>
+              </div>
+            </article>
+            <article data-category="bridal color texture " class="showcase-study-card">
+              <img alt="Upięcie Noir Luxe" src="./img/portfolio3.jpg" />
+              <div class="showcase-study-content">
+                <h4>
+                  <span>Upięcie Noir Luxe</span>
+                  <br />
+                </h4>
+                <p>
+                  <span>
+                    Objętość w stylu edytorial i bezbłędne wykończenie.
+                    Elegancja stworzona na czerwony dywan i dla panny
+                    młodej.
+                  </span>
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="showcase-gallery">
+          <article data-category="bridal texture" class="showcase-gallery-card">
+            <img alt="Styl fryzury teksturowy naturalny" src="./img/portfolio4.jpg" />
+            <div class="showcase-gallery-caption">
+              <p>Elegancja, która płynie</p>
+            </div>
+          </article>
+          <article data-category="editorial color" class="showcase-gallery-card">
+            <img alt="Wykończenie w stylu runway" src="./img/portfolio5.jpg" />
+            <div class="showcase-gallery-caption">
+              <p>Wykończenie w stylu runway</p>
+            </div>
+          </article>
+          <article data-category="editorial texture" class="showcase-gallery-card">
+            <img alt="Stylizacja filmowa faktura i forma" src="./img/portfolio6.jpg" />
+            <div class="showcase-gallery-caption">
+              <p>Filmowa faktura i forma</p>
+            </div>
+          </article>
+          <article data-category="editorial " class="showcase-gallery-card">
+            <img alt="Sesja we współpracy z magazynem" src="./img/portfolio7.jpg" />
+            <div class="showcase-gallery-caption">
+              <p>Sesja we współpracy z magazynem</p>
+            </div>
+          </article>
+          <article data-category="editorial" class="showcase-gallery-card">
+            <img alt="Sesja we współpracy z magazynem" src="./img/portfolio8.jpg" />
+            <div class="showcase-gallery-caption">
+              <p>Sesja we współpracy z magazynem</p>
+            </div>
+          </article>
+          <article data-category="texture color bridal" class="showcase-gallery-card">
+            <img alt="Wyrafinowana, profesjonalna stylizacja" src="./img/portfolio9.jpg" />
+            <div class="showcase-gallery-caption">
+              <p>Wyrafinowana, profesjonalna stylizacja</p>
+            </div>
+          </article>
+        </div>
+        <div class="showcase-cta">
+          <p class="section-content">
+            <span>
+              Ta kolekcja pokazuje kunszt, spójność koncepcji i
+              bezkompromisowe dążenie do perfekcji — dowód, że Atelier Noire
+              potrafi przekuć wizję w fryzjerską formę, która zachwyca i
+              trwa.
+            </span>
+          </p>
+          <a href="#booking" class="btn-primary btn">Zobacz projekt </a>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="services" aria-labelledby="services-title" class="js-anim-section services-section" data-animation="slide-right">
+      <div class="services-container">
+        <div class="services-header">
+          <h2 id="services-title" class="section-title">Nasze autorskie usługi</h2>
+          <p class="section-subtitle">
+            Zabiegi, w których precyzja spotyka się z troską i sztuką
+            detalu.
+          </p>
+        </div>
+        <div class="services-grid">
+          <article class="service-signature">
+            <div class="service-icon">
+              <svg width="48" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 0 24 24">
+                <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle r="3" cx="6" cy="6"></circle>
+                  <path d="M8.12 8.12L12 12m8-8L8.12 15.88"></path>
+                  <circle r="3" cx="6" cy="18"></circle>
+                  <path d="M14.8 14.8L20 20"></path>
+                </g>
+              </svg>
+            </div>
+            <h3>Autorskie cięcie couture</h3>
+            <p>
+              <span>
+                Precyzyjne cięcie dopasowane do rysów twarzy i stylu życia.
+              </span>
+              <br />
+              <span>
+                Zawiera indywidualną konsultację, ręczne wykończenie oraz
+                spersonalizowany przewodnik stylizacji.
+              </span>
+            </p>
+            <div class="service-meta"><span>90 min</span></div>
+          </article>
+          <article class="featured service-card">
+            <div class="service-icon">
+              <svg width="32" xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 0 24 24">
+                <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M12 22a1 1 0 0 1 0-20a10 9 0 0 1 10 9a5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z">
+                  </path>
+                  <circle r=".5" cx="13.5" cy="6.5" fill="currentColor"></circle>
+                  <circle r=".5" cx="17.5" cy="10.5" fill="currentColor"></circle>
+                  <circle r=".5" cx="6.5" cy="12.5" fill="currentColor"></circle>
+                  <circle r=".5" cx="8.5" cy="7.5" fill="currentColor"></circle>
+                </g>
+              </svg>
+            </div>
+            <h3>Złocista opowieść koloru</h3>
+            <p>
+              <span>
+                Wielowymiarowa koloryzacja premium z wykorzystaniem
+                bezamoniakowych formuł.
+              </span>
+              <br />
+              <span>
+                Opcje: Soft Luminosity, Platinum Couture oraz Rich Depth
+                Balayage.
+              </span>
+            </p>
+            <div class="service-meta"><span>180 min</span></div>
+          </article>
+          <article class="featured service-card">
+            <div class="service-icon">
+              <svg width="32" xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 0 24 24">
+                <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594zM20 2v4m2-2h-4">
+                  </path>
+                  <circle r="2" cx="4" cy="20"></circle>
+                </g>
+              </svg>
+            </div>
+            <h3>Rytuał Halo Gloss</h3>
+            <p>
+              <span>
+                Lustrzany połysk i regenerujący eliksir, który wzmacnia
+                kolor i nadaje mu świetlistość.
+              </span>
+              <br />
+              <span>
+                Dostępny jako pojedynczy zabieg lub w formie subskrypcji
+                pielęgnacyjnej.
+              </span>
+            </p>
+            <div class="service-meta"><span>60 min</span></div>
+          </article>
+          <div class="services-secondary">
+            <article class="service-card">
+              <h4>Modelowanie Avant-Shape</h4>
+              <p>
+                <span>
+                  Architektoniczne suszenie włosów z ochronną infuzją
+                  cieplną — dla perfekcyjnego wykończenia w stylu sesji
+                  zdjęciowej.
+                </span>
+              </p>
+              <span class="service-duration">45 min</span>
+            </article>
+            <article class="service-card">
+              <h4>Stylizacje ślubne &amp; eventowe</h4>
+              <p>
+                Prywatna stylizacja na zamówienie, przymiarki ślubne i
+                makijaże na specjalne okazje, z sesją próbną.
+              </p>
+              <span class="service-duration">Niestandardowy</span>
+            </article>
+            <article class="service-card">
+              <h4>Terapia odnawiająca Renewal</h4>
+              <p>
+                Intensywna regeneracja w salonie z użyciem peptydów i
+                olejów, uzupełniona spersonalizowaną kuracją domową.
+              </p>
+              <span class="service-duration">75 min</span>
+            </article>
+            <article class="service-card">
+              <h4>Executive Grooming</h4>
+              <p>
+                <span>
+                  Precyzyjne cięcie i modelowanie połączone z rzeźbieniem
+                  brody — dla nowoczesnej, dopracowanej sylwetki.
+                </span>
+              </p>
+              <span class="service-duration">60 min</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" aria-labelledby="team-title" class="js-anim-section team-section" data-animation="slide-scale">
+      <div class="team-container">
+        <div class="team-hero">
+          <img alt="Atelier Noir wnętrze studia" src="./img/team.jpg" />
+          <div class="team-hero-intro">
+            <h2 id="team-title" class="section-title">Poznaj nasz Atelier</h2>
+            <p class="section-content">
+              <span>
+                Nasz starannie dobrany zespół mistrzów stylizacji — każdy z
+                nich to dyrektor kreatywny w swoim własnym stylu.
+              </span>
+              <br />
+              <span>
+                Szkoleni w renomowanych domach mody i doceniani w pracy
+                edytorialowej, łączą techniczną precyzję z wrażliwością
+                couture.
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="team-content">
+          <div class="team-grid">
+            <article class="team-card">
+              <img alt="Izabela Kowalska - Dyrektor kreatywna i architekt koloru " src="./img/team1.jpg" />
+              <div class="team-card-info">
+                <h3>Izabela Kowalska</h3>
+                <p class="team-card-role">
+                  Dyrektor kreatywna &amp; architekt koloru
+                </p>
+                <p class="team-card-bio">
+                  <span>
+                    Od 12 lat tworzy palety barw inspirowane wybiegiem i
+                    autorskie systemy koloryzacji.
+                  </span>
+                  <br />
+                  <span>
+                    Specjalizuje się w precyzyjnym kolorze HD, naturalnym
+                    balayage i transformacyjnych korektac
+                  </span>
+                </p>
+                <p class="team-card-credential">
+                  Laureatka nagród w dziedzinie koloryzacji
+                </p>
+              </div>
+            </article>
+            <article class="team-card">
+              <img alt="Mati Doniecki - Stylista edytorialowy" src="./img/team2.jpg" />
+              <div class="team-card-info">
+                <h3>Mati Doniecki</h3>
+                <p class="team-card-role">Stylista edytorialowy</p>
+                <p class="team-card-bio">
+                  <span>
+                    Mateo, nagrodzony za strukturalne, wyraziste cięcie,
+                    rzeźbi włosy z zamysłem architekta, dopasowując każde
+                    cięcie do postawy, garderoby i stylu życia.
+                  </span>
+                </p>
+                <p class="team-card-credential">Editorial stylist award</p>
+              </div>
+            </article>
+            <article class="team-card">
+              <img alt="Anna Kwiatkowska - Specjalistka od tekstury i stylizacji" src="./img/team3.jpg" />
+              <div class="team-card-info">
+                <h3>Anna Kwiatkowska</h3>
+                <p class="team-card-role">
+                  Specjalistka od tekstury i stylizacji
+                </p>
+                <p class="team-card-bio">
+                  <span>
+                    Ulubienica świata filmu i magazynów editorial.
+                  </span>
+                  <br />
+                  <span>
+                    Kreuje dopracowaną fakturę — od miękkich fal po
+                    awangardowe upięcia, które płynnie przechodzą z sesji w
+                    codzienność.
+                  </span>
+                </p>
+                <p class="team-card-credential">Ekspertka filmowa i wybiegowa</p>
+              </div>
+            </article>
+            <article class="team-card">
+              <img alt="Ewelina Nieć - Stylizacje ślubne i indywidualne" src="./img/team4.jpg" />
+              <div class="team-card-info">
+                <h3>Ewelina Nieć</h3>
+                <p class="team-card-role">Stylizacje ślubne i indywidualne</p>
+                <p class="team-card-bio">
+                  Ewelina łączy skrupulatne planowanie z intuicyjnym okiem,
+                  oferując prywatne konsultacje i sesje próbne dla każdego
+                  stylu ślubnego i okolicznościowego.
+                </p>
+                <p class="team-card-credential">
+                  Ekspertka luksusowych stylizacji ślubnych
+                </p>
+              </div>
+            </article>
+            <article class="team-card">
+              <img alt="Bruno Biel -Lider innowacji kolorystycznych " src="./img/team5.jpg" />
+              <div class="team-card-info">
+                <h3>Bruno Biel</h3>
+                <p class="team-card-role">Lider innowacji kolorystycznych</p>
+                <p class="team-card-bio">
+                  <span>
+                    Bruno, wizjoner w dziedzinie trójwymiarowej teorii
+                    kolorów, opracowuje niestandardowe formuły, które
+                    przechwytują światło i pozwalają tworzyć palety barw
+                    wyróżniające każdego klienta.
+                  </span>
+                </p>
+                <p class="team-card-credential">Innovation specialist</p>
+              </div>
+            </article>
+            <article class="team-card">
+              <img alt="Amelia Jędrzejewsk - Nowy talent Atelier" src="./img/team6.jpg" />
+              <div class="team-card-info">
+                <h3>Amelia Jędrzejewska</h3>
+                <p class="team-card-role">Nowy talent Atelier</p>
+                <p class="team-card-bio">
+                  <span>
+                    Uczennica mistrzów stylizacji, wnosi świeże spojrzenie i
+                    perfekcyjną technikę.
+                  </span>
+                  <br />
+                  <span>
+                    Specjalizuje się w nowoczesnych teksturach i naturalnym
+                    ruchu włosów.
+                  </span>
+                </p>
+                <p class="team-card-credential">Wschodząca gwiazda</p>
+              </div>
+            </article>
+          </div>
+          <div class="team-accolades">
+            <blockquote>
+              <p>
+                „Przełomowe doświadczenie — zespół Atelier Noir przewidział dokładnie to, czego chciałem, zanim ja sam
+                to zrobiłem”. —
+                J. Stańczyk
+              </p>
+            </blockquote>
+            <blockquote>
+              <p>
+                „Artyzm na poziomie studia połączony ze spokojnym, eleganckim przebiegiem obsługi.” — M. Markowska
+              </p>
+            </blockquote>
+            <div class="team-accolades-btn-container">
+              <a href="#booking" class="btn-primary btn">Zarezerwuj personalną konsultację</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" aria-labelledby="experience-title" class="js-anim-section experience-section" data-animation="slide-up" >
+      <div class="experience-container">
+        <div class="experience-editorial">
+          <h2 id="experience-title" class="section-title">Doświadczenie Atelier</h2>
+          <p class="section-content">
+            Starannie wyselekcjonowana oaza, w której artyzm spotyka się z
+            dyskrecją. Studio Atelier Noir zostało zaprojektowane dla
+            klientów, którzy oczekują czegoś więcej niż usługi: oczekują
+            wyjątkowej okazji.
+          </p>
+          <div class="experience-features">
+            <article class="experience-feature">
+              <h3>Przybycie</h3>
+              <p>
+                Prywatne wejście i nastrojowe oświetlenie nadają ton.
+                Dedykowany gospodarz powita Cię zgodnie z Twoimi
+                indywidualnymi zasadami – szampanem, doborem zapachów i
+                krótką konsultacją, aby dopasować wizję do nastroju.
+              </p>
+            </article>
+            <article class="experience-feature">
+              <h3>Przestrzeń</h3>
+              <p>
+                Minimalistyczne wnętrza w głębokim antracycie i ciepłym
+                złocie, starannie dobrane&nbsp;meble i delikatne, kinetyczne
+                oświetlenie tworzą spokojną scenerię dla&nbsp;transformacji.
+              </p>
+            </article>
+            <article class="experience-feature">
+              <h3>Proces</h3>
+              <p>
+                <span>
+                  Our bespoke consultation develops a tailored roadmap —
+                  mood boards,
+                </span>
+                <br />
+                <span>
+                  texture analysis, and maintenance planning with precision
+                  tools and
+                </span>
+                <br />
+                <span>sustainable luxury products.</span>
+                Our bespoke consultation develops a tailored roadmap — mood
+                boards, texture analysis, and maintenance planning with
+                precision tools and sustainable luxury products.
+              </p>
+            </article>
+          </div>
+        </div>
+        <div class="experience-visual">
+          <div class="experience-visual-stack">
+            <img alt="Elegancka poczekalnia dla klientów w bogatym stylu" src="./img/experience1.jpg" />
+            <article class="experience-info-card">
+              <div class="experience-card-icon">
+                <svg width="24" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24">
+                  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M8 2v4m8-4v4"></path>
+                    <rect x="3" y="4" rx="2" width="18" height="18"></rect>
+                    <path d="M3 10h18"></path>
+                  </g>
+                </svg>
+              </div>
+              <h4>Opieka &amp;&nbsp;Concierge</h4>
+              <p>
+                <span>
+                  Personalized scheduling, pre-appointment notes, and
+                  post-visit
+                </span>
+                <br />
+                <span>
+                  follow-ups from your stylist ensure continuity. We arrange
+                  at-home
+                </span>
+                <br />
+                <span>touchups and color-safe travel kits.</span>
+                Personalized scheduling, pre-appointment notes, and
+                post-visit follow-ups from your stylist ensure continuity.
+                We arrange at-home touchups and color-safe travel kits.
+              </p>
+            </article>
+            <img alt="Przytulne luksusowe stanowisko do stylizacji z podświetlanymi lustrami"
+              src="./img/experience2.jpg" />
+            <article class="experience-info-card">
+              <div class="experience-card-icon">
+                <svg width="24" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  </path>
+                </svg>
+              </div>
+              <h4>Prywatność &amp; Dyskrecja</h4>
+              <p>
+                Kabiny konsultacyjne z maskowaniem dźwiękowym i okna spotkań
+                zaprojektowane tak, aby zminimalizować nakładanie się
+                terminów. Dla prestiżowych klientów oferujemy sesje
+                zamknięte.
+              </p>
+            </article>
+            <img alt="Fryzjer przygotowujący farbę do włosow" src="./img/experience3.jpg" />
+            <article class="experience-info-card">
+              <div class="experience-card-icon">
+                <svg width="24" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24">
+                  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                      d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594zM20 2v4m2-2h-4">
+                    </path>
+                    <circle r="2" cx="4" cy="20"></circle>
+                  </g>
+                </svg>
+              </div>
+              <h4>Subtelne przyjemności</h4>
+              <p>
+                Bezpłatne rytuały pielęgnacji skóry głowy, ręcznie frezowane
+                gorące ręczniki i starannie dobrane playlisty. Sezonowe
+                napoje i ekskluzywne eliksiry do włosów dopełniają zmysłową
+                narrację..
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="booking" aria-labelledby="booking-title" class="js-anim-section booking-section" data-animation="slide-scale">
+      <div class="booking-panel">
+        <div class="booking-form-column">
+          <h2 id="booking-title" class="section-title">Zarezerwuj swoją sesję</h2>
+          <p class="section-content">
+            <span>
+              Umów się na prywatną konsultację lub zarezerwuj sesję z naszym
+            </span>
+            <br />
+            <span>
+              konsjerżem w studio. Indywidualny styl, bezproblemowa obsługa.
+            </span>
+          </p>
+          <form role="form" aria-label="Formularz rezerwacji" class="booking-concierge-form">
+            <fieldset>
+              <legend class="booking-visually-hidden">Informacje osobowe</legend>
+              <div class="booking-form-group">
+                <label for="booking-name">Twoje imię i nazwisko</label>
+                <input type="text" id="booking-name" name="true" required placeholder="Imię i nazwisko"
+                 />
+              </div>
+              <div class="booking-form-group">
+                <label for="booking-email">Adres email</label>
+                <input type="email" id="booking-email" name="Email" required placeholder="email"
+                 />
+              </div>
+              <div class="booking-form-group">
+                <label for="booking-phone">Numer telefonu</label>
+                <input type="tel" id="booking-phone" name="phone" placeholder="Numer telefonu" />
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend class="booking-visually-hidden">Szczegóły spotkania</legend>
+              <div class="booking-form-group">
+                <label for="booking-date">Preferowana data i czas</label>
+                <input type="datetime-local" id="booking-date" name="datetime" required />
+              </div>
+              <div class="booking-form-group">
+                <label for="booking-service">
+                  Jaką usługą jesteś zainteresowany
+                </label>
+                <select id="booking-service" name="service" required>
+                  <option value="" disabled selected>Wybierz usługę</option>
+                  <option value="consultation">Prywatna konsultacja</option>
+                  <option value="cut">Autorskie cięcie couture</option>
+                  <option value="color">Złocista opowieść koloru</option>
+                  <option value="gloss">Rytuał Halo Gloss</option>
+                  <option value="blowout">Modelowanie Avant-Shape</option>
+                  <option value="bridal">Stylizacje ślubne &amp; eventowe</option>
+                  <option value="repair">Terapia odnawiająca Renewal</option>
+                  <option value="grooming">Executive Grooming</option>
+                </select>
+              </div>
+              <div class="booking-form-group">
+                <label for="booking-notes">
+                  Opowiedz nam o swoim wymarzonym wyglądzie
+                </label>
+                <textarea id="booking-notes" name="notes" rows="4"
+                  placeholder="Opisz swoją wizję, okazję lub jakieś szczególne prośby..."
+                  aria-describedby="notes-helper"></textarea>
+                <span id="notes-helper" class="booking-form-helper">
+                  Podziel się swoją inspiracją, celami lub obawami
+                </span>
+              </div>
+              <div class="booking-form-group">
+                <label for="booking-requirements">
+                  Wymagania specjalne
+                </label>
+                <textarea id="booking-requirements" name="requirements" rows="2"
+                  placeholder="Alergie, nadwrażliwości lub potrzeby w zakresie dostępności..."></textarea>
+              </div>
+            </fieldset>
+            <button type="submit" class="btn-primary btn booking-submit">
+              Wyslij zapytanie
+            </button>
+          </form>
+            <p class="alert-message alert-message--booking ">Dziękujemy za wiaomość! Odezwiemy się w przeciągu 1 dnia roboczego!</p>
+          </div>
+          <div class="booking-contact-column">
+          <div class="booking-contact-img">
+            <img src="./img/booking.jpg" alt="Wityna z farbami do włosów" />
+          </div>
+          <div class="booking-contact-details">
+            <h3>Bezpośredni kontakt</h3>
+            <p>Wolisz bezpośrednią rozmowę? Odpowiemy w ciągu 4 godzin.</p>
+            <div class="booking-contact-links">
+              <a href="mailto:hello@ateliernoirtestt.com">
+                <div aria-label="Email do Atelier Noir" class="booking-contact-link">
+                  <svg width="20" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24">
+                    <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round">
+                      <path d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                      <rect x="2" y="4" rx="2" width="20" height="16"></rect>
+                    </g>
+                  </svg>
+                  <span>kontakt@ateliernoirtestt.com</span>
+                </div>
+              </a>
+              <a href="tel:+15550123456">
+                <div aria-label="Zadzwoń do Atelier Noir Studio" class="booking-contact-link">
+                  <svg width="20" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24">
+                    <path
+                      d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    </path>
+                  </svg>
+                  <span>+12 (000) 012-3456</span>
+                </div>
+              </a>
+            </div>
+            <div class="booking-membership-note">
+              <h4>Członkowstwo &amp; Wydarzenia</h4>
+              <p>
+                Zapytaj o prywatne sesje stylizacyjne, współpracę redakcyjną
+                i&nbsp;indywidualne plany konserwacji dla stałych klientów.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h2 class="footer-brand-name">Atelier Noir</h2>
+          <p class="footer-brand-tagline">
+            Tam, gdzie sztuka spotyka elegancję
+          </p>
+        </div>
+        <div class="footer-content-grid">
+          <div class="footer-column footer-contact" data-tag="footer-animation">
+            <h3 class="footer-column-title">Kontakt</h3>
+            <ul class="footer-contact-list">
+              <li class="footer-contact-item">
+                <span aria-hidden="true" class="footer-contact-icon">
+                  <svg width="20" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24">
+                    <path
+                      d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    </path>
+                  </svg>
+                </span>
+                <a href="tel:+12125551234" class="footer-contact-link">+12 (000) 012-3456</a>
+              </li>
+              <li class="footer-contact-item">
+                <span aria-hidden="true" class="footer-contact-icon">
+                  <svg width="20" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24">
+                    <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round">
+                      <path d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                      <rect x="2" y="4" rx="2" width="20" height="16"></rect>
+                    </g>
+                  </svg>
+                </span>
+                <a href="mailto:hello@ateliernoirtestt.studio"
+                  class="footer-contact-link">kontakt@ateliernoirtestt.studio</a>
+              </li>
+              <li class="footer-contact-item">
+                <span aria-hidden="true" class="footer-contact-icon">
+                  <svg width="20" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24">
+                    <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round">
+                      <path
+                        d="M17.97 9.304A8 8 0 0 0 2 10c0 4.69 4.887 9.562 7.022 11.468m12.356-4.842a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z">
+                      </path>
+                      <circle r="3" cx="10" cy="10"></circle>
+                    </g>
+                  </svg>
+                </span>
+                <span class="footer-contact-text">
+                  Aleja Srebrnych Grot 9, 99-001 Warszawa
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column footer-hours" data-tag="footer-animation">
+            <h3 class="footer-column-title">Godziny otwarcia</h3>
+            <ul class="footer-hours-list">
+              <li class="footer-hours-item">
+                <span class="footer-hours-day">Monday - Friday</span>
+                <span class="footer-hours-time">
+                  9:00 AM - 8:00 PM
+                </span>
+              </li>
+              <li class="footer-hours-item">
+                <span class="footer-hours-day">Saturday</span>
+                <span class="footer-hours-time">
+                  10:00 AM - 6:00 PM
+                </span>
+              </li>
+              <li class="footer-hours-item">
+                <span class="footer-hours-day">Sunday</span>
+                <span class="footer-hours-time">Closed</span>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column footer-links" data-tag="footer-animation">
+            <h3 class="footer-column-title">Szybkie odnośniki</h3>
+            <ul class="footer-links-list">
+              <li class="footer-links-item">
+                <a href="#services" class="footer-link">Oferta </a>
+              </li>
+              <li class="footer-links-item">
+                <a href="#portfolio" class="footer-link">Portfolio</a>
+              </li>
+              <li class="footer-links-item">
+                <a href="#about" class="footer-link">O nas</a>
+              </li>
+              <li class="footer-links-item">
+                <a href="#booking" class="footer-link">Zarezerwuj wizytę
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div aria-hidden="true" class="footer-divider"></div>
+      <div class="footer-bottom" data-tag="footer-animation">
+        <div class="footer-social">
+          <span class="footer-social-label">Śledź nas na</span>
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a href="https://instagram.com">
+                <div aria-label="Instagram" class="footer-social-link">
+                  <svg width="20" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24">
+                    <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round">
+                      <rect x="2" y="2" rx="5" ry="5" width="20" height="20"></rect>
+                      <path d="M16 11.37A4 4 0 1 1 12.63 8A4 4 0 0 1 16 11.37m1.5-4.87h.01"></path>
+                    </g>
+                  </svg>
+                </div>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="https://facebook.com">
+                <div aria-label="Facebook" class="footer-social-link">
+                  <svg width="20" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    </path>
+                  </svg>
+                </div>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="https://twitter.com">
+                <div aria-label="Twitter" class="footer-social-link">
+                  <svg width="20" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24">
+                    <path
+                      d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6c2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4c-.9-4.2 4-6.6 7-3.8c1.1 0 3-1.2 3-1.2"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    </path>
+                  </svg>
+                </div>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="https://pinterest.com">
+                <div aria-label="Pinterest" class="footer-social-link">
+                  <svg width="20" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24">
+                    <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round">
+                      <path d="m8 20l4-9m-1.3 3c.437 1.263 1.43 2 2.55 2c2.071 0 3.75-1.554 3.75-4a5 5 0 1 0-9.7 1.7">
+                      </path>
+                      <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0"></path>
+                    </g>
+                  </svg>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-legal" data-tag="footer-animation">
+          <p class="footer-copyright">
+            &copy; <span class="footer-year"></span> Atelier Noir. All rights reserved.
+          </p>
+          <div class="footer-legal-links">
+            <a href="#" class="footer-legal-link">Polityka prywatności
+            </a>
+            <span aria-hidden="true" class="footer-legal-separator">
+              |
+            </span>
+            <a href="#" class="footer-legal-link">Regulamin serwisu
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div aria-hidden="true" class="footer-accent-line"></div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>
